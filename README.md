@@ -1,5 +1,5 @@
 # Steps Performed
-  1-created a resource group
+  1-created a resource group<br>
   2-created a storage group in East US region.
   3-created a container inside the storage group and created 3 folders inside that container
   4-copied some files in each of the folders.
