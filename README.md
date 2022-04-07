@@ -10,3 +10,4 @@
   9-Configured inbound traffic to the vm only from tiger vpn.
   
   # Screenshot of billing information
+  ![costanalysis_charts](https://user-images.githubusercontent.com/92777791/162248005-cae35e04-16d2-4d9a-b6ef-cc6c59a77c79.png)
