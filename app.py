@@ -14,7 +14,7 @@ app = Flask(__name__)
 def folderview(folder, container):
     print("Azure Blob Storage v" + __version__ + " - Python quickstart sample")
 
-    connect_str = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+    connect_str = "DefaultEndpointsProtocol=https;AccountName=storageaccountombhuyan;AccountKey=n1qicd6RN7+0pnOI8BDubKl1jrbikYbPmMoNNUVtj1zA6Zuzhaj/m0Eowzi8uNcxZF+VEyEbI7YY+AStzCO32g==;EndpointSuffix=core.windows.net"
     """Create the BlobServiceClient object which
     will be used to create a container client"""
     blob_service_client = BlobServiceClient.from_connection_string(connect_str)
