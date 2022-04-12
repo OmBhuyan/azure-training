@@ -9,8 +9,15 @@
   8-Deployed the flask app to the vm using Putty.<br>
   9-Configured inbound traffic to the vm only from tiger vpn.<br>
   
+  # Steps to execute the app
+  1-configure putty by assigning IP address as the public IP address of the VM created on azure.<br>
+  2-Login using the userId and password as set during creation of VM.<br>
+  3-navigate to the directory where the flask app is present.<br>
+  4-Run the flask app.E.g python3 app.py<br>
+  5-The app will start running on the URL.<br>
+  
   # Screenshot of billing information
-  ![costanalysis_charts](https://user-images.githubusercontent.com/92777791/162248005-cae35e04-16d2-4d9a-b6ef-cc6c59a77c79.png)
+ ![costanalysis_charts (1)](https://user-images.githubusercontent.com/92777791/162890761-88887732-dfd3-4f0b-a4aa-af849c384131.png)
   
   # Flask app URL
   http://40.88.124.72:5000/
